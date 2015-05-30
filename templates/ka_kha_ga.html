@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-10 center">
+            <h4>कखरा</h4>
+        </div>
+    </div>
+    <div class="row">
+    <% var breaks = [4,9,14,19,24,28,32]; var breakPtr = 0; %>
+    <% for (var i=0; i< letters.length; i++) { %>
+        <div class="col-xs-2">
+            <h4><a href="#letter?<%= letters[i].letterId %>"><%= letters[i].letter %></a></h4>
+        </div>
+    <% if (i == breaks[breakPtr]) {%>
+    <% breakPtr++ %>
+    </div>
+    <div class="row">
+    <% } %>
+    <% } %>
+</div>
+

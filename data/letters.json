@@ -1,0 +1,66 @@
+{
+    "letters": 
+    [
+        {
+            "letterId": "ka",
+            "letter": "क"
+        },
+        {
+            "letterId": "kha",
+            "letter": "ख"
+        },
+        {
+            "letterId": "ga",
+            "letter": "ग"
+        },
+        {
+            "letterId": "gha",
+            "letter": "घ"
+        },
+        {
+            "letterId": "nga",
+            "letter": "ङ"
+        },
+        {
+            "letterId": "cha",
+            "letter": "च"
+        },
+        {
+            "letterId": "chha",
+            "letter": "छ"
+        },
+        {
+            "letterId": "ja",
+            "letter": "ज"
+        },
+        {
+            "letterId": "jha",
+            "letter": "झ"
+        },
+        {
+            "letterId": "yna",
+            "letter": "ञ"
+        },
+        {
+            "letterId": "tta",
+            "letter": "ट"
+        },
+        {
+            "letterId": "ttha",
+            "letter": "ठ"
+        },
+        {
+            "letterId": "dda",
+            "letter": "ड"
+        },
+        {
+            "letterId": "ddha",
+            "letter": "ढ"
+        },
+        {
+            "letterId": "ynna",
+            "letter": "ण"
+        }
+        
+    ]
+}

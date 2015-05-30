@@ -1,0 +1,94 @@
+{
+    "letterWords": [
+        {
+            "letterId": "ka",
+            "letter": "क",
+            "words": [
+                {
+                    "letterId": "ka",
+                    "word": "कलम",
+                    "image": "pen.png",
+                    "sound": "pen.mp3"
+                },
+                {
+                    "letterId": "ka",
+                    "word": "कमल",
+                    "image": "lotus.png",
+                    "sound": "lotus.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "kha",
+            "letter": "ख",
+            "words": [
+                {
+                    "letterId": "kha",
+                    "word": "खल",
+                    "image": "mortar.png",
+                    "sound": "mortar.mp3"
+                },
+                {
+                    "letterId": "kha",
+                    "word": "खरायो",
+                    "image": "rabbit.png",
+                    "sound": "rabbit.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "ga",
+            "letter": "ग",
+            "words": [
+                {
+                    "letterId": "ga",
+                    "word": "गमला",
+                    "image": "flowerpot.png",
+                    "sound": "flowerpot.mp3"
+                },
+                {
+                    "letterId": "ga",
+                    "word": "गधा",
+                    "image": "donkey.png",
+                    "sound": "donkey.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "gha",
+            "letter": "घ",
+            "words": [
+                {
+                    "letterId": "gha",
+                    "word": "घर",
+                    "image": "house.png",
+                    "sound": "house.mp3"
+                },
+                {
+                    "letterId": "gha",
+                    "word": "घडी",
+                    "image": "clock.png",
+                    "sound": "clock.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "nga",
+            "letter": "ङ",
+            "words": [
+                {
+                    "letterId": "nga",
+                    "word": "नङ",
+                    "image": "nail.png",
+                    "sound": "nail.mp3"
+                },
+                {
+                    "letterId": "nga",
+                    "word": "पलङ",
+                    "image": "bed.png",
+                    "sound": "bed.mp3"
+                }
+            ]
+        }
+    ]
+}
