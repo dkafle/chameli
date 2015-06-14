@@ -9,7 +9,7 @@
     <% var breaks = [4,9,14,19,24,28,32]; var breakPtr = 0; %>
     <% for (var i=0; i< letters.length; i++) { %>
         <div class="one-fifth columns">
-            <h4><a href="#letter?<%= letters[i].letterId %>"><%= letters[i].letter %></a></h4>
+            <h3><a href="#letter?<%= letters[i].letterId %>"><%= letters[i].letter %></a></h3>
         </div>
     <% if (i == breaks[breakPtr]) {%>
     <% breakPtr++ %>

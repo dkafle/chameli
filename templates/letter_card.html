@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 center">
+        <div class="twelve columns center">
             <h2>
                 <a href="#letter?<%= letterId %>" class="letter"><%= letter %></a>
                 <audio class="letterSound" src="audio/letters/<%= letterId %>.mp3"></audio>
@@ -8,14 +8,14 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-6 center">
+        <div class="six columns center">
             <img  src="images/<%= words[0].image%>" height="100" width="100" alt="<%= words[0].word %>" />
             <p>
                 <%= words[0].word%>
                 <audio class="letterSound" src="audio/words/<%= words[0].sound %>"></audio>
             </p>
         </div>
-        <div class="col-xs-6 center">
+        <div class="six columns center">
             <img src="images/<%= words[1].image%>" height="100" width="100" alt="<%= words[1].word %>" />
             <p>
                 <%= words[1].word %>
@@ -24,13 +24,13 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-6">
+        <div class="one-half columns">
             <button type="button" class="btn btn-default previousCard" 
             data-previousLetter="<%= previousLetter%>" aria-label="Left Align">
                 <span class="glyphicon glyphicon-arrow-left"></span>
             </button>
         </div>
-        <div class="col-xs-6 right">
+        <div class="one-half columns right">
             <button type="button" class="btn btn-default nextCard" 
             data-nextLetter="<%= nextLetter%>" aria-label="Right Align">
                 <span class="glyphicon glyphicon-arrow-right"></span>

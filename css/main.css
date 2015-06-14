@@ -1,4 +1,7 @@
 /* Skeleton customization */
+body a {
+    text-decoration: none;
+}
 
 /* Only mobile devices */
 @media (max-width: 399px) {
