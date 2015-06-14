@@ -1,14 +1,36 @@
-
-#juneli {
-    margin-top: 60px;
-    font-size: 2em;
-    padding: 40px 0px;
+/* Skeleton customization */
+body a {
+    text-decoration: none;
 }
 
-#juneli > div {
-    border: 1px solid #ccc;
+/* Only mobile devices */
+@media (max-width: 399px) {
+    .one-fifth.columns { width: 50%; }
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    .one-fifth.columns		  { width: 20%; }
+}
+
+/* Larger than phablets */
+@media (min-width: 550px) {
+    .one-fifth.columns		  { width: 16.8%; }    
+}
+
+
+/* Utility classes */
+.center {
+    text-align: center;
+}
+
+#juneli {
+    
+}
+
+#juneli > div.container {
+    background-color: #ffc;
     border-radius: 5px;
-    padding: 16px;
 }
 
 canvas {
