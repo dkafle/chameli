@@ -23,17 +23,25 @@
             </p>
         </div>
     </div>
-    <div class="row">
-        <div class="one-half columns">
-            <button type="button" class="btn btn-default previousCard" 
+    <div class="row cardNav">
+        <div class="left">
+            <button type="button" class="btn previousCard" 
             data-previousLetter="<%= previousLetter%>" aria-label="Left Align">
-                <span class="glyphicon glyphicon-arrow-left"></span>
+                <span class="glyphicon glyphicon-arrow-left">&lt;</span>
             </button>
         </div>
-        <div class="one-half columns right">
-            <button type="button" class="btn btn-default nextCard" 
+        <!--
+        <div class="home">
+            <button type="button" class="btn" 
+            data-previousLetter="<%= previousLetter%>" aria-label="Left Align">
+                <span class="glyphicon glyphicon-home">home</span>
+            </button>
+        </div>
+        -->
+        <div class="right">
+            <button type="button" class="btn nextCard" 
             data-nextLetter="<%= nextLetter%>" aria-label="Right Align">
-                <span class="glyphicon glyphicon-arrow-right"></span>
+                <span class="glyphicon glyphicon-arrow-right">&gt;</span>
             </button>
         </div>
     </div>

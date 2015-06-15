@@ -60,6 +60,90 @@
         {
             "letterId": "ynna",
             "letter": "ण"
+        },
+        {
+            "letterId": "ta",
+            "letter": "त"
+        },
+        {
+            "letterId": "tha",
+            "letter": "थ"
+        },
+        {
+            "letterId": "da",
+            "letter": "द"
+        },
+        {
+            "letterId": "dha",
+            "letter": "ध"
+        },
+        {
+            "letterId": "na",
+            "letter": "न"
+        },
+        {
+            "letterId": "pa",
+            "letter": "प"
+        },
+        {
+            "letterId": "pha",
+            "letter": "फ"
+        },
+        {
+            "letterId": "ba",
+            "letter": "ब"
+        },
+        {
+            "letterId": "bha",
+            "letter": "भ"
+        },
+        {
+            "letterId": "ma",
+            "letter": "म"
+        },
+        {
+            "letterId": "ya",
+            "letter": "य"
+        },
+        {
+            "letterId": "ra",
+            "letter": "र"
+        },
+        {
+            "letterId": "la",
+            "letter": "ल"
+        },
+        {
+            "letterId": "wa",
+            "letter": "व"
+        },
+        {
+            "letterId": "sa",
+            "letter": "ष"
+        },
+        {
+            "letterId": "ssa",
+            "letter": "स"
+        },
+        {
+            "letterId": "sha",
+            "letter": "श"
+        },
+        {
+            "letterId": "ha",
+            "letter": "ह"
+        },
+        {
+            "letterId": "ksha",
+            "letter": "क्ष"
+        },
+        {
+            "letterId": "tra",
+            "letter": "त्र"
+        },
+        {
+            "letterId": "jyna",
+            "letter": "ज्ञ"
         }
         
     ]
