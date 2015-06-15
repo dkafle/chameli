@@ -1,0 +1,88 @@
+body {
+  background-color: #F5F5F5;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-device-width: 480px) {
+  body .materialCard {
+    width: 95%;
+    margin: 2.5%;
+  }
+}
+
+@media only screen and (min-device-width: 480px) {
+  body .materialCard {
+    width: 30%;
+    float: left;
+    margin: 1.65%;
+  }
+}
+
+.materialCard {
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-top: 5px solid #FFFFFF;
+  border-radius: 3px;
+  padding: 15px;
+  margin: 0 auto;
+  box-shadow: 5px 3px 3px 0 rgba(0, 0, 0, 0.26);
+}
+
+.materialCard header {
+  font-size: 1.1em;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.materialCard header h1, .materialCard header h2, .materialCard header h3, .materialCard header h4, .materialCard header h5, .materialCard header h6 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.materialCard header h1 {
+  font-size: 1em;
+}
+
+.materialCard header h2 {
+  font-size: 0.9em;
+}
+
+.materialCard header h3 {
+  font-size: 0.8em;
+}
+
+.materialCard header h4 {
+  font-size: 0.7em;
+}
+
+.materialCard header h5 {
+  font-size: 0.6em;
+}
+
+.materialCard header h6 {
+  font-size: 0.5em;
+}
+
+.materialCard.alert {
+  border-top: 5px solid #E9453A;
+}
+
+.materialCard.success {
+  border-top: 5px solid #8CC04D;
+}
+
+.materialCard.warning {
+  border-top: 5px solid #F49719;
+}
+
+.materialCard.note {
+  border-top: 5px solid #428DCC;
+}
+
+.materialCard.image {
+  border: none;
+}

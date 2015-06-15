@@ -6,6 +6,12 @@ body a {
 /* Only mobile devices */
 @media (max-width: 399px) {
     .one-fifth.columns { width: 50%; }
+    .letters .row:nth-child(odd) {
+        background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.3) 100%); /* W3C */
+    }
+    .letters .row:nth-child(even) {
+        background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.3) 100%); /* W3C */
+    }
 }
 
 /* Larger than mobile */
@@ -15,7 +21,8 @@ body a {
 
 /* Larger than phablets */
 @media (min-width: 550px) {
-    .one-fifth.columns		  { width: 16.8%; }    
+    .one-fifth.columns		  { width: 16.8%; }   
+    
 }
 
 
@@ -24,13 +31,27 @@ body a {
     text-align: center;
 }
 
-#juneli {
-    
-}
+/* App Specific Rules  */
 
 #juneli > div.container {
-    background-color: #ffc;
     border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.26);
+    border-top: 5px solid #428DCC;
+}
+
+/* Navigation */
+.cardNav .left {
+    float: left;
+}
+.cardNav .right {
+    float: right;
+}
+
+.cardNav button,
+.cardNav button:hover {
+    margin: 10px;
+    color: #428DCC;
+    border-color: #428DCC;
 }
 
 canvas {
