@@ -89,6 +89,24 @@
                     "sound": "bed.mp3"
                 }
             ]
+        },
+        {
+            "letterId": "cha",
+            "letter": "च",
+            "words": [
+                {
+                    "letterId": "cha",
+                    "word": "चरा",
+                    "image": "kite.png",
+                    "sound": "kite.mp3"
+                },
+                {
+                    "letterId": "cha",
+                    "word": "चङ्गा",
+                    "image": "kite.png",
+                    "sound": "kite.mp3"
+                }
+            ]
         }
     ]
 }
