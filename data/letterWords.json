@@ -107,6 +107,150 @@
                     "sound": "kite.mp3"
                 }
             ]
+        },
+        {
+            "letterId": "chha",
+            "letter": "छ",
+            "words": [
+                {
+                    "letterId": "chha",
+                    "word": "छाता",
+                    "image": "bird.png",
+                    "sound": "bird.mp3"
+                },
+                {
+                    "letterId": "chha",
+                    "word": "छेपारो",
+                    "image": "chameleon.png",
+                    "sound": "chameleon.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "ja",
+            "letter": "ज",
+            "words": [
+                {
+                    "letterId": "ja",
+                    "word": "जहाज",
+                    "image": "ship.png",
+                    "sound": "ship.mp3"
+                },
+                {
+                    "letterId": "ja",
+                    "word": "जमरा",
+                    "image": "jamara.png",
+                    "sound": "jamara.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "jha",
+            "letter": "झ",
+            "words": [
+                {
+                    "letterId": "jha",
+                    "word": "झण्डा",
+                    "image": "flag.png",
+                    "sound": "flag.mp3"
+                },
+                {
+                    "letterId": "jha",
+                    "word": "झरना",
+                    "image": "waterfall.png",
+                    "sound": "waterfall.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "yna",
+            "letter": "ञ",
+            "words": [
+                {
+                    "letterId": "yna",
+                    "word": "",
+                    "image": null,
+                    "sound": null
+                },
+                {
+                    "letterId": "jha",
+                    "word": "",
+                    "image": null,
+                    "sound": null
+                }
+            ]
+        },
+        {
+            "letterId": "tta",
+            "letter": "ट",
+            "words": [
+                {
+                    "letterId": "tta",
+                    "word": "टपरी",
+                    "image": "tapari.png",
+                    "sound": "tapari.mp3"
+                },
+                {
+                    "letterId": "tta",
+                    "word": "टोपी",
+                    "image": "topi.png",
+                    "sound": "topi.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "ttha",
+            "letter": "ठ",
+            "words": [
+                {
+                    "letterId": "ttha",
+                    "word": "ठेगाना",
+                    "image": "address.png",
+                    "sound": "address.mp3"
+                },
+                {
+                    "letterId": "ttha",
+                    "word": "ठेकी",
+                    "image": "theki.png",
+                    "sound": "theki.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "dda",
+            "letter": "ड",
+            "words": [
+                {
+                    "letterId": "dda",
+                    "word": "डमरू",
+                    "image": "damaru.png",
+                    "sound": "damaru.mp3"
+                },
+                {
+                    "letterId": "dda",
+                    "word": "डाडु",
+                    "image": "dadu.png",
+                    "sound": "dadu.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "ddha",
+            "letter": "ढ",
+            "words": [
+                {
+                    "letterId": "ddha",
+                    "word": "ढकिया",
+                    "image": "dhakiya.png",
+                    "sound": "dhakiya.mp3"
+                },
+                {
+                    "letterId": "ddha",
+                    "word": "ढकनी",
+                    "image": "dhakani.png",
+                    "sound": "dhakani.mp3"
+                }
+            ]
         }
     ]
 }
