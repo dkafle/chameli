@@ -251,6 +251,24 @@
                     "sound": "dhakani.mp3"
                 }
             ]
+        },
+        {
+            "letterId": "ynna",
+            "letter": "ण",
+            "words": [
+                {
+                    "letterId": "ynna",
+                    "word": "बाण",
+                    "image": "arrow.png",
+                    "sound": "arrow.mp3"
+                },
+                {
+                    "letterId": "a",
+                    "word": "ण",
+                    "image": "a.png",
+                    "sound": "a.mp3"
+                }
+            ]
         }
     ]
 }
