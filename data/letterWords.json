@@ -269,6 +269,24 @@
                     "sound": "a.mp3"
                 }
             ]
+        },
+        {
+            "letterId": "ta",
+            "letter": "त",
+            "words": [
+                {
+                    "letterId": "ta",
+                    "word": "तराजु",
+                    "image": "balance.png",
+                    "sound": "balance.mp3"
+                },
+                {
+                    "letterId": "ta",
+                    "word": "तबला",
+                    "image": "tabala.png",
+                    "sound": "tabala.mp3"
+                }
+            ]
         }
     ]
 }
