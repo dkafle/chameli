@@ -287,6 +287,60 @@
                     "sound": "tabala.mp3"
                 }
             ]
+        },
+        {
+            "letterId": "tha",
+            "letter": "थ",
+            "words": [
+                {
+                    "letterId": "tha",
+                    "word": "थपडी",
+                    "image": "clap.png",
+                    "sound": "clap.mp3"
+                },
+                {
+                    "letterId": "tha",
+                    "word": "थ",
+                    "image": "th.png",
+                    "sound": "th.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "da",
+            "letter": "द",
+            "words": [
+                {
+                    "letterId": "da",
+                    "word": "दमाहा",
+                    "image": "clap.png",
+                    "sound": "clap.mp3"
+                },
+                {
+                    "letterId": "da",
+                    "word": "दमकल",
+                    "image": "th.png",
+                    "sound": "th.mp3"
+                }
+            ]
+        },
+        {
+            "letterId": "dha",
+            "letter": "ध",
+            "words": [
+                {
+                    "letterId": "dha",
+                    "word": "धरहरा",
+                    "image": "clap.png",
+                    "sound": "clap.mp3"
+                },
+                {
+                    "letterId": "dha",
+                    "word": "धर्को",
+                    "image": "th.png",
+                    "sound": "th.mp3"
+                }
+            ]
         }
     ]
 }
