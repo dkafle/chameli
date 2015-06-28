@@ -27,6 +27,7 @@ define([
             this.setPreviousLetter();
             this.setNextLetter();
             this.updateWordStructure();
+            this.loadAudio();
             $(this.el).empty();
             this.render();
         },
@@ -69,6 +70,15 @@ define([
             });
         },
         
+        loadAudio: function() {
+            var audioPath = '../../audio/letters/';
+            var letter = this.wordStructure.letterId;
+            var letterAudioEl = document.createElement('audio');
+            letterAudioEl.setAttribute('id', 'letterSound');
+            letterAudioEl.setAttribute('src', audioPath + letter + '.mp3');
+            $('body').append($(letterAudioEl));
+        },
+        
         events: {
             'click button.nextCard': 'showNextCard',
             'click button.previousCard': 'showPreviousCard',
@@ -94,6 +104,8 @@ define([
         },
         
         playLetterSound: function(evt) {
+            debugger;
+            document.getElementById('letterSound').play();
             document.getElementsByClassName('letterSound')[0].play();
         }
     });
